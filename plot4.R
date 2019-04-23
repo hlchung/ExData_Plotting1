@@ -25,7 +25,7 @@ plot(timeseries, submeter1, type = 'l', ylab = "Energy sub metering", xlab = "")
 lines(timeseries, submeter2, col = 'red')
 lines(timeseries, submeter3, col = 'blue')
 legend('topright', c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), lty = 1, lwd = 2, bty='n', col=c('black', 'red', 'blue'))
-?legend
+
 plot(timeseries, globalreactivepower, type = 'l', ylab = 'Global_reactive_power', xlab = 'datetime')
 
 dev.off()
